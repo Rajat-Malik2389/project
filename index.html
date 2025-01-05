@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <h2>MyApp</h2>
+        </div>
+        <div class="navbar-right">
+            <a href="index.html" id="signupLink">Signup</a>
+            <a href="profile.html" id="profileLink">Profile</a>
+        </div>
+    </nav>
+    <hr>
+    <div class="container">
+        <h1>Signup</h1>
+        <form id="signupForm">
+            <label for="username">Full Name:</label>
+            <input type="text" id="username" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" required>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" required>
+            <button type="submit">Signup</button>
+            <p id="message"></p>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
